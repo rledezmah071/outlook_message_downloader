@@ -1,0 +1,10 @@
+# Name of Outlook folder to retrieve the emails
+root_folder: "alias@outlook.com"
+folder_name: "Inbox"
+    
+# Minimum date (inclusive) and maximum date (exclusive) to retrieve emails from Outlook. (year - month - day)
+min_date: '2021-06-08'
+max_date: '2021-06-09'
+
+# Writeable full file path to write CSV results (Accepts relative paths and for Windows it requires double backslash)
+output_path: "C:\\Users\\user\\Documents\\email_extract.xlsx"
